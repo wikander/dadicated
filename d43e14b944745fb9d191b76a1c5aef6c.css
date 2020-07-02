@@ -1,0 +1,1 @@
+:root{--popColor: #e04f10;--backgroundColorNeutral: #fdfdfd;--grayColor: #c0c0c0}:root body{margin:0;border:3px solid var(--popColor);min-height:100vh;box-sizing:border-box;background-color:var(--backgroundColorNeutral)}:root header{display:flex;align-items:center;justify-content:center;margin-top:25px}:root header .logo{width:60vw;max-width:1000px}
