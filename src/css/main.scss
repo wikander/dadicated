@@ -1,11 +1,13 @@
 :root {
   --popColor: #e04f10;
+  --backgroundColorNeutral: #fdfdfd;
 
   body {
     margin: 0;
-    border: 2px solid var(--popColor);
+    border: 3px solid var(--popColor);
     min-height: 100vh;
     box-sizing: border-box;
+    background-color: var(--backgroundColorNeutral);
   }
 
   header {
