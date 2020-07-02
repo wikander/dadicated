@@ -29,6 +29,15 @@ module.exports = {
         use: [{ loader: "file-loader", options: { esModule: false } }],
       },
       {
+        test: /CNAME/,
+        use: [
+          {
+            loader: "file-loader",
+            options: { esModule: false, name: "[name]" },
+          },
+        ],
+      },
+      {
         test: /\.(html)$/,
         use: [
           { loader: "file-loader?name=[name].[ext]" },
